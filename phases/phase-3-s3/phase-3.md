@@ -87,3 +87,6 @@ Accepts requests only from trusted compute
 Enforces access through IAM role identity, not credentials
 
 This ensures storage access cannot exist outside the trusted execution environment.
+
+**Note**
+To harden this phase I will later use SSE-KMS + Key policy
